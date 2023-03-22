@@ -10,12 +10,13 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "moduleResolution": "node",
+    "experimentalDecorators": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "incremental": true,
     "isolatedModules": true,
     "outDir": "tmp",
-    "noEmit": true,
+    "noEmit": false,
     "types": ["node", "vite/client"],
     "paths": {
       "~/*": ["./src/*"]
